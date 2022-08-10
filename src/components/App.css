@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Inter&family=Nunito:wght@200&family=Open+Sans:wght@300&display=swap');
+
+body{
+  background-image: url(cover.jpg);
+  background-size: cover;
+  padding: 20px;
+}
+.header {
+  background-color:black;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 0 20px 2px red;
+}
+.header-title {
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  color: red;
+  letter-spacing: 5px;
+  font-size: 40px;
+}
+i.icon {
+  float: right;
+  position: relative;
+  font-size: 30px;
+  cursor: pointer;
+}
+.icons-div {
+  width: 100%;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgb(50, 243, 162);
+}
+.right {
+  float: right;
+}
+.content-course {
+  width: 80%;
+}
+.add-stud-h2 {
+  color: red;
+}
+.descr-course-titles {
+  width: 80%;
+  display: flex;
+  padding: 0 10px;
+}
+.descr-course-titles h2 {
+  box-shadow: 10px 0 20px 2px rgba(255, 0, 0, 0.5);
+  border-radius: 4px;
+  padding:10px;
+  width: 25%;
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+  margin: 0;
+  letter-spacing: 1px;
+}
+.desc-cours-content {
+  width: 100%;
+  display: flex;
+  height: 100px;
+  border-bottom: 16px solid rgb(0, 0, 0);
+  border-right: 2px solid rgb(5, 4, 4);
+}
+.desc-cours-content div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  width: 25%;
+  padding: 10px;
+  height: 100%;
+  font-size: 25px;
+  color: rgb(126, 255, 201);
+  letter-spacing: 1px;  
+}
+.desc-coursecontent {
+  box-shadow: 0 0 10px 2px rgb(50, 243, 162);
+}
+.descr-course-data {
+  width: 12.5% !important;
+  font-size: 17px !important;
+}
+.start-end-cours div {
+  border: none !important;
+}
+.add-course-button {
+  width:160px;
+  height: 65px;
+  display:grid;
+  place-items: center;
+  background:transparent;
+ 
+  background-color: rgb(34, 216, 61);
+  border-radius: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  box-shadow: 0 0 10px 2px   rgb(34, 216, 61);
+
+}
+.add-course-button:hover{
+  background-color: rgb(71, 225, 94);
+}
+@media screen and (max-width: 1250px) {
+  body{
+    padding: 10px;
+  }
+  .header h2{
+    font-size:30px;
+  }
+  .descr-course-titles{
+    width: 100%;
+  }
+  .descr-course-titles h2{
+    font-size: 24px;
+  }
+  .content-course {
+    width: 100%;
+  }
+  .desc-cours-content div {
+    padding: 0;
+    font-size: 20px;
+  }
+  .add-course-button {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 823px) {
+  body{
+    padding: 5px;
+  }
+  .header h2{
+    font-size: 20px;
+  }
+  .descr-course-titles{
+    width: 100%;
+  }
+  .descr-course-titles h2{
+    font-size: 19px;
+  }
+  i.icon {
+    font-size: 19px;
+  }
+  .content-course {
+    width: 100%;
+  }
+  .desc-cours-content div {
+    padding: 0;
+    font-size: 17px;
+  }
+  .add-course-button {
+    margin-bottom: 10px;
+  }
+  .desc-cours-content {
+    height: 60px;
+  }
+  .descr-course-data {
+    font-size: 11px !important;
+  }
+}
+@media screen and (max-width: 823px){
+  body{
+    padding: 5px;
+  }
+  .header h2{
+    font-size: 24px;
+  }
+  .descr-course-titles{
+    width: 100%;
+  }
+  .descr-course-titles h2{
+    font-size: 12px;
+  }
+  .content-course {
+    width: 100%;
+  }
+  .desc-cours-content div {
+    padding: 0;
+    font-size: 11px;
+  }
+  .add-course-button {
+    margin-bottom: 10px;
+  }
+  .desc-cours-content {
+    height: 60px;
+  }
+  .descr-course-data {
+    font-size: 10px !important;
+  }
+}
+
+/* * ***************************************** * details card start*/
+
+.details-desc-content {
+  width: 100%;
+ 
+  display: grid;
+  place-items: center;
+}
+.details-start-end {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.details-start-end div{
+    font-size: 22px;
+}
+.details-desc-card {
+  width:350px;
+  height: 250px;
+  display:grid;
+  place-items: center;
+  background:transparent;
+  box-shadow: 10px 0 20px 2px rgba(255, 255, 255, 0.5);
+}
+.details-back-btn{
+  width:160px;
+  height: 65px;
+  display:grid;
+  place-items: center;
+  background:transparent;
+  position: relative;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 20px;
+  letter-spacing: 2px;
+  box-shadow: 0 0 10px 2px   rgb(237, 246, 238);
+}
+.details-back-btn:hover{
+  color: red;
+  box-shadow: 0 0 10px 2px   rgb(255, 0, 0);
+}
+.details-desc-card {
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+.details-desc-card h1 {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 0;
+}
+.details-names {
+  display: flex;
+}
+.details-names div{
+  display: flex;
+  width: 50%;
+  margin: 10px;
+}
+.details-desc-card h2{
+  margin-bottom: 50px;
+  color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 450px) {
+  .details-desc-card{
+    width: 500px;
+  }
+  .details-back-btn {
+    width: 100px;
+    height: 45px;
+  }
+}
+
+/* ********** ********** start add contacts ************************ */
+
+.add-contacts-container {
+  max-width: 700px;
+  padding:40px;
+}
+.add-contacts-container  div input {
+  background: transparent;
+  outline: none;
+  height: 60px;
+  width: 100%;
+  letter-spacing: 1px;
+  color: rgb(218, 17, 17);
+  font-size: 24px;
+  border-radius: 5px;
+  color: rgb(255, 0, 0);
+}
+.add-contacts-container  div input:focus {
+  border-bottom: 1px solid red;
+  color: rgb(255, 0, 0);
+}
+.add-contacts-container  div label {
+  margin-top: 10px;
+  font-size: 20px;
+  color: rgb(199, 144, 245);
+  letter-spacing: 1px;
+}
+.add-contacts-container  div input::placeholder {
+  color: rgb(32, 90, 109);
+}
+.add-course-btn {
+  width:100%;
+  height: 60px;
+  display:grid;
+  place-items: center;
+  background:transparent;
+  color: rgb(255, 0, 0);
+  box-shadow: 0px 0 20px 2px rgba(255, 255, 255, 0.5);
+  font-size: 25px;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+.add-course-btn-back {
+  width:100px;
+  height: 60px;
+  display:grid;
+  place-items: center;
+  background:transparent;
+  color: rgb(255, 0, 0);
+  box-shadow: 0px 0 20px 2px rgba(255, 0, 0, 0.5);
+  font-size: 25px;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+.add-course-btn:hover {
+  color: rgb(235, 27, 27);
+}
+@media screen and (max-width: 650px) {
+  .add-contacts-container {
+    width: 100%;
+    padding: 15px;
+  }
+}
